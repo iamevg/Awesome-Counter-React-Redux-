@@ -1,0 +1,45 @@
+body
+  margin 0
+  padding 0
+  background-color #fff
+
+#root
+  height 100vh
+  display flex
+
+.counter
+  margin auto
+  color #ccc
+  display flex
+  flex-direction column
+  width 210px
+  .count
+    text-align center
+    font-size 7rem
+    font-family monospace
+  .buttons
+    display flex
+    button
+      flex 1
+      font-size 18px
+      margin 5px
+      cursor pointer
+      background-color dodgerblue
+      color white
+      border none
+      outline none
+      border-radius 5px
+      padding 10px
+      &:hover
+        background-color dodgerblue - 20%
+      &:active
+        background-color dodgerblue - 30%
+  input
+    text-align center
+    background-color transparent
+    color #ccc
+    font-family monospace
+    border none
+    outline none
+    margin 5px
+    font-size 2rem
